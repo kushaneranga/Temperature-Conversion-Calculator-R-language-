@@ -3,11 +3,11 @@ Convert Celsius to Fahrenheit: type-F
 Convert Fahrenheit to Celsius: type-C\n") #Concatenate
 inp <- toupper(readline(prompt = "What do you want: "))
 if (inp == "F"){
-  fahrenheit <- as.numeric(readline(prompt = "Enter the Temperature in Celsius: "))
+  fahrenheit <- as.numeric(readline(prompt = "Enter the temperature in celsius: "))
   f <- (fahrenheit * 1.8) + 32
   cat("Fahrenheit: ",f)
 }else if (inp == "C"){
-  celsius <- as.numeric(readline(prompt = "Enter the Temperature in fahrenheit: "))
+  celsius <- as.numeric(readline(prompt = "Enter the temperature in fahrenheit: "))
   c <- (celsius - 32) * 5 / 9
   cat("Celsius: ",c)
 }else{
