@@ -1,4 +1,4 @@
-cat("- Converting the Fahrenheit Celsius -
+cat("-Converting the Fahrenheit Celsius-
 Convert Celsius to Fahrenheit: type-F
 Convert Fahrenheit to Celsius: type-C\n") #Concatenate
 inp <- toupper(readline(prompt = "What do you want: "))
